@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|e:\\software\\asp_netcore_ucenje\\ucenici_mucenici\\ucenici\\ucenici\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|solutionrelative:ucenici\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|e:\\software\\asp_netcore_ucenje\\ucenici_mucenici\\ucenici\\ucenici\\views\\razredi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|solutionrelative:ucenici\\views\\razredi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|e:\\software\\asp_netcore_ucenje\\ucenici_mucenici\\ucenici\\ucenici\\controllers\\razredicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|solutionrelative:ucenici\\controllers\\razredicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|e:\\software\\asp_netcore_ucenje\\ucenici_mucenici\\ucenici\\ucenici\\models\\razredirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012625F4-D129-252C-714C-CABF9FE93926}|UCENICI\\UCENICI.csproj|solutionrelative:ucenici\\models\\razredirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UCENICI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UCENICI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T10:10:11.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RazrediController.cs",
+              "DocumentMoniker": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Controllers\\RazrediController.cs",
+              "RelativeDocumentMoniker": "UCENICI\\Controllers\\RazrediController.cs",
+              "ToolTip": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Controllers\\RazrediController.cs",
+              "RelativeToolTip": "UCENICI\\Controllers\\RazrediController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:53:20.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Views\\Razredi\\Index.cshtml",
+              "RelativeDocumentMoniker": "UCENICI\\Views\\Razredi\\Index.cshtml",
+              "ToolTip": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Views\\Razredi\\Index.cshtml",
+              "RelativeToolTip": "UCENICI\\Views\\Razredi\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T09:12:16.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RazrediRepository.cs",
+              "DocumentMoniker": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Models\\RazrediRepository.cs",
+              "RelativeDocumentMoniker": "UCENICI\\Models\\RazrediRepository.cs",
+              "ToolTip": "E:\\SOFTWARE\\ASP_NETcore_ucenje\\UCENICI_MUCENICI\\UCENICI\\UCENICI\\Models\\RazrediRepository.cs",
+              "RelativeToolTip": "UCENICI\\Models\\RazrediRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T08:27:53.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

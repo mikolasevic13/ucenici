@@ -1,0 +1,21 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using UCENICI.Models;
+
+namespace UCENICI.Controllers
+{
+    public class RazrediController:Controller
+    {
+        public IActionResult Index()
+        {
+            var razredi=RazrediRepository.GetRazredi();
+            return View(razredi);
+        }
+
+        public IActionResult Edit(int? id)
+        {
+            var razred = new Razred { RazredId = id.HasValue?id.Value:0 };
+            
+            return View(razred);
+        }
+    }
+}

@@ -1,0 +1,34 @@
+﻿@using UCENICI.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Razred>
+
+
+<h3>Razredi</h3>
+
+    
+@if (Model != null && Model.Count() > 0)
+    {
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Razred</th>
+                <th>Razrednik</th>
+                <th>Broj učenika u razredu</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var razred in Model)
+                {
+                <tr>
+                    <td>@razred.RazredNaziv</td>
+                    <td>@razred.Razrednik</td>
+                    <td>@razred.RazredBrojUcenika</td>
+                    <td><a class="btn btn-dark" asp-controller="razredi" asp-action="edit" asp-route-id="@razred.RazredId">Uredi</a></td>
+                </tr>
+                }
+        </tbody>
+    </table>
+}  
+
