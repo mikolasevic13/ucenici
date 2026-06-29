@@ -39,7 +39,7 @@
         {
             if (razredId != razred.RazredId) return;
 
-            var razredToUpdate = GetRazredById(razredId);
+            var razredToUpdate = _razredi.FirstOrDefault(x => x.RazredId == razredId);
             if (razredToUpdate != null)
             {
                 razredToUpdate.RazredNaziv = razred.RazredNaziv;

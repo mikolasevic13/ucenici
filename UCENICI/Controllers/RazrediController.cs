@@ -13,9 +13,15 @@ namespace UCENICI.Controllers
 
         public IActionResult Edit(int? id)
         {
-            var razred = new Razred { RazredId = id.HasValue?id.Value:0 };
+            var razred = RazrediRepository.GetRazredById(id.HasValue?id.Value:0);
             
             return View(razred);
+        }
+        [HttpPost]
+        public IActionResult Edit(Razred razred)
+        {
+            RazrediRepository.UpdateRazred(razred.RazredId, razred);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
