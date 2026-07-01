@@ -20,7 +20,36 @@ namespace UCENICI.Controllers
         [HttpPost]
         public IActionResult Edit(Razred razred)
         {
-            RazrediRepository.UpdateRazred(razred.RazredId, razred);
+            if(ModelState.IsValid)
+            {
+                RazrediRepository.UpdateRazred(razred.RazredId, razred);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(razred);
+            
+        }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Add(Razred razred)
+        {
+            if (ModelState.IsValid)
+            {
+                RazrediRepository.AddRazred(razred);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(razred);
+
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int razredId)
+        {
+            RazrediRepository.DeleteRazred(razredId);
             return RedirectToAction(nameof(Index));
         }
     }

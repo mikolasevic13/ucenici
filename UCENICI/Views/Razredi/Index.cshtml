@@ -1,8 +1,8 @@
 ﻿@model List<Razred>
 
-
+@section title{
 <h3>Razredi</h3>
-
+}
     
 @if (Model != null && Model.Count() > 0)
     {
@@ -12,6 +12,7 @@
                 <th>Razred</th>
                 <th>Razrednik</th>
                 <th>Broj učenika u razredu</th>
+                <th></th>
                 <th></th>
             </tr>
         </thead>
@@ -23,10 +24,20 @@
                     <td>@razred.RazredNaziv</td>
                     <td>@razred.Razrednik</td>
                     <td>@razred.RazredBrojUcenika</td>
-                    <td><a class="btn btn-dark" asp-controller="razredi" asp-action="edit" asp-route-id="@razred.RazredId">Uredi</a></td>
+                    <td><a class="btn btn-success" asp-controller="razredi" asp-action="edit" asp-route-id="@razred.RazredId">Uredi</a></td>
+                    <td><a class="btn btn-danger" asp-controller="razredi" asp-action="delete" asp-route-razredid="@razred.RazredId" onclick="return confirmDelete()">Izbriši</a></td>
                 </tr>
                 }
         </tbody>
     </table>
+    <br/>
+    <a class="btn btn-primary" asp-controller="razredi" asp-action="add">Dodaj</a>
 }  
 
+@section Scripts{
+    <script>
+        function confirmDelete(){
+            return confirm("Jeste li sigurni da želite obrisati odabrani razred?");
+        }
+    </script>
+}
