@@ -6,7 +6,8 @@
         {
             new Razred { RazredId = 1, RazredNaziv = "1A", Razrednik = "Ivan Ivić", RazredBrojUcenika=19 },
             new Razred { RazredId = 2, RazredNaziv = "2B", Razrednik = "Petar Horvat", RazredBrojUcenika=20 },
-            new Razred { RazredId = 3, RazredNaziv = "3C", Razrednik = "Stjepan Mikić", RazredBrojUcenika=16 }
+            new Razred { RazredId = 3, RazredNaziv = "3C", Razrednik = "Stjepan Mikić", RazredBrojUcenika=16 },
+            new Razred { RazredId = 4, RazredNaziv = "4A", Razrednik = "Mario Zetaić", RazredBrojUcenika=13 }
         };
 
         public static void AddRazred(Razred razred)

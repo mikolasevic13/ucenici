@@ -1,0 +1,40 @@
+﻿@model List<Ucenik>
+
+@section title{
+	<h3> Učenici </h3>
+}
+
+@if (Model != null && Model.Count()>0)
+{
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>ID Učenika</th>
+				<th>Razred</th>
+				<th>Ime učenika</th>
+				<th>Prezime učenika</th>
+				<th>Ime oca/majke</th>
+				<th>Prezime oca/majke</th>
+				<th>OIB</th>
+				<th>Datum rođenja</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach(var ucenik in Model)
+			{
+				<tr>
+				<td>@ucenik.UcenikId </td>
+				<td>@ucenik.Razred?.RazredNaziv </td>
+				<td>@ucenik.Ime </td>
+				<td>@ucenik.Prezime </td>
+				<td>@ucenik.ImeOcaMajke </td>
+				<td>@ucenik.PrezimeOcaMajke </td>
+				<td>@ucenik.OIB  </td>
+				<td>@ucenik.DatumRodenja  </td>
+				</tr>
+			}
+		</tbody>
+
+	</table>
+}

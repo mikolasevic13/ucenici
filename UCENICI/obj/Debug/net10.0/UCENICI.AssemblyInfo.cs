@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UCENICI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fa58599f4517d97bec5b3af92f3f1bf93f56f3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adc348076996dee2a025d586e6f0eaeb612f19c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("UCENICI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UCENICI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
